@@ -12,12 +12,5 @@ RSpec.describe 'Your First HTML Tag' do
   end
 end
 
-<! DOCTYPE html>
-<html>
-index.html
-<head>
-<h1> Hello, World! </h1>
-</head>
-</html>
 
 
