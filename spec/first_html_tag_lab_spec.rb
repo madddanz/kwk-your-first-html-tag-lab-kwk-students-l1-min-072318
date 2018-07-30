@@ -12,7 +12,7 @@ RSpec.describe 'Your First HTML Tag' do
   end
 end
 
-<! DOCTYPE>
+< ! DOCTYPE>
 <html>
 index.html
 <head>
