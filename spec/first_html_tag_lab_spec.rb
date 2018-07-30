@@ -1,7 +1,7 @@
 RSpec.describe 'Your First HTML Tag' do
   it 'is an H1 in index.html' do
     h1 = parsed_html.search('h1').first
-<h1> Hello, World! </h1>
+
     expect(h1).to_not be_nil, hint(1, h1)
   end
 
@@ -11,3 +11,12 @@ RSpec.describe 'Your First HTML Tag' do
     expect(h1_content).to eq('Hello, World!'), hint(2, h1_content)
   end
 end
+
+<! DOCTYPE>
+<html>
+<head>
+<h1> Hello, World! </h1>
+</head>
+</html>
+
+
